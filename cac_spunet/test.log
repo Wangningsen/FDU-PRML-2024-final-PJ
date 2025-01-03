@@ -1,0 +1,187 @@
+[2024-12-19 10:06:26,885 INFO test.py line 41 528752] => Loading config ...
+[2024-12-19 10:06:26,885 INFO test.py line 48 528752] => Building model ...
+[2024-12-19 10:06:34,304 INFO test.py line 61 528752] Num params: 39287348
+[2024-12-19 10:06:34,387 INFO test.py line 68 528752] Loading weight at: exp/scannet/semseg-cac-v1m1-0-spunet-base/model/model_best.pth
+[2024-12-19 10:06:34,662 INFO test.py line 80 528752] => Loaded weight 'exp/scannet/semseg-cac-v1m1-0-spunet-base/model/model_best.pth' (epoch 100)
+[2024-12-19 10:06:34,663 INFO test.py line 53 528752] => Building test dataset & dataloader ...
+[2024-12-19 10:06:34,666 INFO defaults.py line 68 528752] Totally 312 x 1 samples in val set.
+[2024-12-19 10:06:34,667 INFO test.py line 119 528752] >>>>>>>>>>>>>>>> Start Evaluation >>>>>>>>>>>>>>>>
+[2024-12-19 10:06:50,121 INFO test.py line 169 528752] 1/78: scene0088_00, loaded pred and label.
+[2024-12-19 10:06:50,293 INFO test.py line 287 528752] Test: scene0088_00 [1/78]-166872 Batch 0.172 (0.172) Accuracy 0.9854 (0.3359) mIoU 0.8738 (0.3058)
+[2024-12-19 10:06:50,913 INFO test.py line 169 528752] 2/78: scene0356_02, loaded pred and label.
+[2024-12-19 10:06:51,005 INFO test.py line 287 528752] Test: scene0356_02 [2/78]-83613 Batch 0.093 (0.133) Accuracy 0.9449 (0.4253) mIoU 0.6497 (0.4074)
+[2024-12-19 10:06:54,959 INFO test.py line 169 528752] 3/78: scene0578_00, loaded pred and label.
+[2024-12-19 10:06:55,132 INFO test.py line 287 528752] Test: scene0578_00 [3/78]-147607 Batch 0.175 (0.147) Accuracy 0.9679 (0.4245) mIoU 0.8963 (0.4064)
+[2024-12-19 10:07:07,552 INFO test.py line 169 528752] 4/78: scene0500_00, loaded pred and label.
+[2024-12-19 10:07:08,011 INFO test.py line 287 528752] Test: scene0500_00 [4/78]-396942 Batch 0.461 (0.225) Accuracy 0.9541 (0.4144) mIoU 0.6173 (0.3923)
+[2024-12-19 10:07:08,173 INFO test.py line 169 528752] 5/78: scene0423_01, loaded pred and label.
+[2024-12-19 10:07:08,226 INFO test.py line 287 528752] Test: scene0423_01 [5/78]-41518 Batch 0.054 (0.191) Accuracy 0.9995 (0.4146) mIoU 0.9954 (0.3927)
+[2024-12-19 10:07:11,918 INFO test.py line 169 528752] 6/78: scene0685_00, loaded pred and label.
+[2024-12-19 10:07:12,057 INFO test.py line 287 528752] Test: scene0685_00 [6/78]-132720 Batch 0.141 (0.183) Accuracy 0.9678 (0.4213) mIoU 0.7941 (0.4004)
+[2024-12-19 10:07:15,087 INFO test.py line 169 528752] 7/78: scene0580_00, loaded pred and label.
+[2024-12-19 10:07:15,282 INFO test.py line 287 528752] Test: scene0580_00 [7/78]-158047 Batch 0.197 (0.185) Accuracy 0.9021 (0.5087) mIoU 0.6215 (0.4746)
+[2024-12-19 10:07:20,791 INFO test.py line 169 528752] 8/78: scene0064_00, loaded pred and label.
+[2024-12-19 10:07:21,027 INFO test.py line 287 528752] Test: scene0064_00 [8/78]-230672 Batch 0.237 (0.191) Accuracy 0.9042 (0.5505) mIoU 0.6494 (0.5124)
+[2024-12-19 10:07:28,518 INFO test.py line 169 528752] 9/78: scene0329_01, loaded pred and label.
+[2024-12-19 10:07:28,915 INFO test.py line 287 528752] Test: scene0329_01 [9/78]-368473 Batch 0.398 (0.214) Accuracy 0.9738 (0.6289) mIoU 0.7282 (0.5757)
+[2024-12-19 10:07:31,653 INFO test.py line 169 528752] 10/78: scene0575_00, loaded pred and label.
+[2024-12-19 10:07:31,857 INFO test.py line 287 528752] Test: scene0575_00 [10/78]-194207 Batch 0.205 (0.213) Accuracy 0.9612 (0.6304) mIoU 0.9050 (0.5783)
+[2024-12-19 10:07:33,914 INFO test.py line 169 528752] 11/78: scene0196_00, loaded pred and label.
+[2024-12-19 10:07:34,087 INFO test.py line 287 528752] Test: scene0196_00 [11/78]-146032 Batch 0.174 (0.210) Accuracy 0.9760 (0.6317) mIoU 0.9249 (0.5790)
+[2024-12-19 10:07:36,399 INFO test.py line 169 528752] 12/78: scene0599_02, loaded pred and label.
+[2024-12-19 10:07:36,522 INFO test.py line 287 528752] Test: scene0599_02 [12/78]-122711 Batch 0.124 (0.203) Accuracy 0.9629 (0.6350) mIoU 0.9194 (0.5823)
+[2024-12-19 10:07:37,253 INFO test.py line 169 528752] 13/78: scene0574_02, loaded pred and label.
+[2024-12-19 10:07:37,318 INFO test.py line 287 528752] Test: scene0574_02 [13/78]-62475 Batch 0.065 (0.192) Accuracy 0.8908 (0.6785) mIoU 0.7409 (0.6193)
+[2024-12-19 10:07:40,107 INFO test.py line 169 528752] 14/78: scene0426_02, loaded pred and label.
+[2024-12-19 10:07:40,233 INFO test.py line 287 528752] Test: scene0426_02 [14/78]-125149 Batch 0.128 (0.188) Accuracy 0.9075 (0.6540) mIoU 0.4930 (0.6010)
+[2024-12-19 10:07:43,492 INFO test.py line 169 528752] 15/78: scene0697_01, loaded pred and label.
+[2024-12-19 10:07:43,717 INFO test.py line 287 528752] Test: scene0697_01 [15/78]-146820 Batch 0.226 (0.190) Accuracy 0.7738 (0.6422) mIoU 0.5068 (0.5651)
+[2024-12-19 10:07:44,221 INFO test.py line 169 528752] 16/78: scene0146_02, loaded pred and label.
+[2024-12-19 10:07:44,288 INFO test.py line 287 528752] Test: scene0146_02 [16/78]-64383 Batch 0.068 (0.182) Accuracy 0.8939 (0.6845) mIoU 0.5306 (0.6088)
+[2024-12-19 10:07:45,640 INFO test.py line 169 528752] 17/78: scene0278_00, loaded pred and label.
+[2024-12-19 10:07:45,718 INFO test.py line 287 528752] Test: scene0278_00 [17/78]-77020 Batch 0.080 (0.176) Accuracy 0.9792 (0.7352) mIoU 0.7751 (0.6726)
+[2024-12-19 10:07:47,294 INFO test.py line 169 528752] 18/78: scene0441_00, loaded pred and label.
+[2024-12-19 10:07:47,415 INFO test.py line 287 528752] Test: scene0441_00 [18/78]-86191 Batch 0.123 (0.173) Accuracy 0.9435 (0.7366) mIoU 0.6169 (0.6741)
+[2024-12-19 10:07:57,268 INFO test.py line 169 528752] 19/78: scene0645_01, loaded pred and label.
+[2024-12-19 10:07:57,609 INFO test.py line 287 528752] Test: scene0645_01 [19/78]-330321 Batch 0.343 (0.182) Accuracy 0.9359 (0.8223) mIoU 0.7886 (0.7624)
+[2024-12-19 10:08:00,045 INFO test.py line 169 528752] 20/78: scene0608_01, loaded pred and label.
+[2024-12-19 10:08:00,241 INFO test.py line 287 528752] Test: scene0608_01 [20/78]-191107 Batch 0.197 (0.183) Accuracy 0.8736 (0.8172) mIoU 0.6666 (0.7602)
+[2024-12-19 10:08:02,571 INFO test.py line 169 528752] 21/78: scene0357_01, loaded pred and label.
+[2024-12-19 10:08:02,710 INFO test.py line 287 528752] Test: scene0357_01 [21/78]-133055 Batch 0.140 (0.181) Accuracy 0.7545 (0.8031) mIoU 0.4688 (0.7505)
+[2024-12-19 10:08:05,752 INFO test.py line 169 528752] 22/78: scene0599_00, loaded pred and label.
+[2024-12-19 10:08:05,932 INFO test.py line 287 528752] Test: scene0599_00 [22/78]-141933 Batch 0.181 (0.181) Accuracy 0.9823 (0.8053) mIoU 0.9544 (0.7534)
+[2024-12-19 10:08:10,208 INFO test.py line 169 528752] 23/78: scene0334_01, loaded pred and label.
+[2024-12-19 10:08:10,497 INFO test.py line 287 528752] Test: scene0334_01 [23/78]-226580 Batch 0.290 (0.186) Accuracy 0.9293 (0.8002) mIoU 0.5317 (0.7466)
+[2024-12-19 10:08:11,285 INFO test.py line 169 528752] 24/78: scene0583_02, loaded pred and label.
+[2024-12-19 10:08:11,377 INFO test.py line 287 528752] Test: scene0583_02 [24/78]-89810 Batch 0.093 (0.182) Accuracy 0.8425 (0.7658) mIoU 0.5088 (0.7038)
+[2024-12-19 10:08:12,923 INFO test.py line 169 528752] 25/78: scene0277_01, loaded pred and label.
+[2024-12-19 10:08:13,007 INFO test.py line 287 528752] Test: scene0277_01 [25/78]-82628 Batch 0.084 (0.178) Accuracy 0.8937 (0.7740) mIoU 0.7265 (0.7120)
+[2024-12-19 10:08:15,242 INFO test.py line 169 528752] 26/78: scene0256_00, loaded pred and label.
+[2024-12-19 10:08:15,355 INFO test.py line 287 528752] Test: scene0256_00 [26/78]-108517 Batch 0.113 (0.175) Accuracy 0.8969 (0.7761) mIoU 0.5591 (0.7168)
+[2024-12-19 10:08:18,492 INFO test.py line 169 528752] 27/78: scene0700_01, loaded pred and label.
+[2024-12-19 10:08:18,652 INFO test.py line 287 528752] Test: scene0700_01 [27/78]-153877 Batch 0.161 (0.175) Accuracy 0.7637 (0.7791) mIoU 0.7596 (0.7191)
+[2024-12-19 10:08:22,831 INFO test.py line 169 528752] 28/78: scene0647_00, loaded pred and label.
+[2024-12-19 10:08:23,031 INFO test.py line 287 528752] Test: scene0647_00 [28/78]-196185 Batch 0.202 (0.176) Accuracy 0.8736 (0.7663) mIoU 0.8061 (0.7100)
+[2024-12-19 10:08:23,304 INFO test.py line 169 528752] 29/78: scene0355_01, loaded pred and label.
+[2024-12-19 10:08:23,373 INFO test.py line 287 528752] Test: scene0355_01 [29/78]-67623 Batch 0.069 (0.172) Accuracy 0.9620 (0.7662) mIoU 0.7025 (0.7098)
+[2024-12-19 10:08:24,163 INFO test.py line 169 528752] 30/78: scene0458_00, loaded pred and label.
+[2024-12-19 10:08:24,230 INFO test.py line 287 528752] Test: scene0458_00 [30/78]-65264 Batch 0.068 (0.169) Accuracy 0.9540 (0.7693) mIoU 0.6942 (0.7130)
+[2024-12-19 10:08:25,058 INFO test.py line 169 528752] 31/78: scene0461_00, loaded pred and label.
+[2024-12-19 10:08:25,117 INFO test.py line 287 528752] Test: scene0461_00 [31/78]-59134 Batch 0.060 (0.165) Accuracy 0.9747 (0.7699) mIoU 0.9467 (0.7140)
+[2024-12-19 10:08:26,308 INFO test.py line 169 528752] 32/78: scene0458_01, loaded pred and label.
+[2024-12-19 10:08:26,379 INFO test.py line 287 528752] Test: scene0458_01 [32/78]-69167 Batch 0.072 (0.162) Accuracy 0.9704 (0.7725) mIoU 0.6554 (0.7170)
+[2024-12-19 10:08:27,796 INFO test.py line 169 528752] 33/78: scene0338_01, loaded pred and label.
+[2024-12-19 10:08:27,884 INFO test.py line 287 528752] Test: scene0338_01 [33/78]-85459 Batch 0.088 (0.160) Accuracy 0.9682 (0.7744) mIoU 0.7933 (0.7168)
+[2024-12-19 10:08:35,435 INFO test.py line 169 528752] 34/78: scene0645_02, loaded pred and label.
+[2024-12-19 10:08:35,767 INFO test.py line 287 528752] Test: scene0645_02 [34/78]-269529 Batch 0.332 (0.165) Accuracy 0.9147 (0.7712) mIoU 0.7116 (0.7121)
+[2024-12-19 10:08:39,224 INFO test.py line 169 528752] 35/78: scene0435_02, loaded pred and label.
+[2024-12-19 10:08:39,522 INFO test.py line 287 528752] Test: scene0435_02 [35/78]-210308 Batch 0.300 (0.169) Accuracy 0.9479 (0.7799) mIoU 0.7576 (0.7194)
+[2024-12-19 10:08:43,718 INFO test.py line 169 528752] 36/78: scene0011_01, loaded pred and label.
+[2024-12-19 10:08:43,965 INFO test.py line 287 528752] Test: scene0011_01 [36/78]-239261 Batch 0.248 (0.171) Accuracy 0.8949 (0.7954) mIoU 0.6997 (0.7297)
+[2024-12-19 10:08:47,438 INFO test.py line 169 528752] 37/78: scene0203_00, loaded pred and label.
+[2024-12-19 10:08:47,647 INFO test.py line 287 528752] Test: scene0203_00 [37/78]-205756 Batch 0.210 (0.172) Accuracy 0.7791 (0.7877) mIoU 0.4768 (0.7215)
+[2024-12-19 10:08:51,268 INFO test.py line 169 528752] 38/78: scene0187_00, loaded pred and label.
+[2024-12-19 10:08:51,441 INFO test.py line 287 528752] Test: scene0187_00 [38/78]-173752 Batch 0.174 (0.172) Accuracy 0.9682 (0.7874) mIoU 0.6888 (0.7207)
+[2024-12-19 10:08:51,965 INFO test.py line 169 528752] 39/78: scene0701_01, loaded pred and label.
+[2024-12-19 10:08:52,045 INFO test.py line 287 528752] Test: scene0701_01 [39/78]-77206 Batch 0.080 (0.170) Accuracy 0.9669 (0.7882) mIoU 0.6341 (0.7214)
+[2024-12-19 10:08:54,940 INFO test.py line 169 528752] 40/78: scene0595_00, loaded pred and label.
+[2024-12-19 10:08:55,141 INFO test.py line 287 528752] Test: scene0595_00 [40/78]-142330 Batch 0.202 (0.171) Accuracy 0.9329 (0.7895) mIoU 0.5269 (0.7231)
+[2024-12-19 10:08:55,938 INFO test.py line 169 528752] 41/78: scene0338_02, loaded pred and label.
+[2024-12-19 10:08:56,026 INFO test.py line 287 528752] Test: scene0338_02 [41/78]-84445 Batch 0.089 (0.169) Accuracy 0.9779 (0.7912) mIoU 0.8029 (0.7258)
+[2024-12-19 10:08:56,446 INFO test.py line 169 528752] 42/78: scene0664_00, loaded pred and label.
+[2024-12-19 10:08:56,494 INFO test.py line 287 528752] Test: scene0664_00 [42/78]-44585 Batch 0.048 (0.166) Accuracy 0.9660 (0.7983) mIoU 0.9016 (0.7355)
+[2024-12-19 10:08:59,512 INFO test.py line 169 528752] 43/78: scene0217_00, loaded pred and label.
+[2024-12-19 10:08:59,642 INFO test.py line 287 528752] Test: scene0217_00 [43/78]-126385 Batch 0.130 (0.165) Accuracy 0.9659 (0.8027) mIoU 0.9272 (0.7400)
+[2024-12-19 10:09:08,478 INFO test.py line 169 528752] 44/78: scene0329_02, loaded pred and label.
+[2024-12-19 10:09:08,892 INFO test.py line 287 528752] Test: scene0329_02 [44/78]-358910 Batch 0.415 (0.171) Accuracy 0.8909 (0.8010) mIoU 0.6185 (0.7324)
+[2024-12-19 10:09:14,195 INFO test.py line 169 528752] 45/78: scene0665_00, loaded pred and label.
+[2024-12-19 10:09:14,458 INFO test.py line 287 528752] Test: scene0665_00 [45/78]-252726 Batch 0.264 (0.173) Accuracy 0.9321 (0.8019) mIoU 0.7577 (0.7347)
+[2024-12-19 10:09:16,305 INFO test.py line 169 528752] 46/78: scene0643_00, loaded pred and label.
+[2024-12-19 10:09:16,504 INFO test.py line 287 528752] Test: scene0643_00 [46/78]-167360 Batch 0.200 (0.173) Accuracy 0.8888 (0.8039) mIoU 0.5886 (0.7357)
+[2024-12-19 10:09:18,745 INFO test.py line 169 528752] 47/78: scene0474_05, loaded pred and label.
+[2024-12-19 10:09:18,942 INFO test.py line 287 528752] Test: scene0474_05 [47/78]-131255 Batch 0.198 (0.174) Accuracy 0.9726 (0.8067) mIoU 0.9368 (0.7390)
+[2024-12-19 10:09:21,824 INFO test.py line 169 528752] 48/78: scene0355_00, loaded pred and label.
+[2024-12-19 10:09:21,984 INFO test.py line 287 528752] Test: scene0355_00 [48/78]-136135 Batch 0.160 (0.174) Accuracy 0.9603 (0.8067) mIoU 0.7642 (0.7385)
+[2024-12-19 10:09:23,282 INFO test.py line 169 528752] 49/78: scene0651_00, loaded pred and label.
+[2024-12-19 10:09:23,407 INFO test.py line 287 528752] Test: scene0651_00 [49/78]-88450 Batch 0.126 (0.173) Accuracy 0.9636 (0.8154) mIoU 0.9003 (0.7474)
+[2024-12-19 10:09:26,344 INFO test.py line 169 528752] 50/78: scene0426_00, loaded pred and label.
+[2024-12-19 10:09:26,537 INFO test.py line 287 528752] Test: scene0426_00 [50/78]-135867 Batch 0.195 (0.173) Accuracy 0.9066 (0.8141) mIoU 0.4937 (0.7462)
+[2024-12-19 10:09:28,665 INFO test.py line 169 528752] 51/78: scene0550_00, loaded pred and label.
+[2024-12-19 10:09:28,876 INFO test.py line 287 528752] Test: scene0550_00 [51/78]-127677 Batch 0.213 (0.174) Accuracy 0.9079 (0.8143) mIoU 0.8114 (0.7469)
+[2024-12-19 10:09:30,181 INFO test.py line 169 528752] 52/78: scene0338_00, loaded pred and label.
+[2024-12-19 10:09:30,341 INFO test.py line 287 528752] Test: scene0338_00 [52/78]-106339 Batch 0.161 (0.174) Accuracy 0.9809 (0.8156) mIoU 0.7103 (0.7490)
+[2024-12-19 10:09:32,180 INFO test.py line 169 528752] 53/78: scene0559_02, loaded pred and label.
+[2024-12-19 10:09:32,384 INFO test.py line 287 528752] Test: scene0559_02 [53/78]-118005 Batch 0.206 (0.174) Accuracy 0.9875 (0.8162) mIoU 0.8097 (0.7497)
+[2024-12-19 10:09:32,736 INFO test.py line 169 528752] 54/78: scene0574_01, loaded pred and label.
+[2024-12-19 10:09:32,854 INFO test.py line 287 528752] Test: scene0574_01 [54/78]-53641 Batch 0.119 (0.173) Accuracy 0.8558 (0.8167) mIoU 0.6701 (0.7501)
+[2024-12-19 10:09:34,545 INFO test.py line 169 528752] 55/78: scene0277_02, loaded pred and label.
+[2024-12-19 10:09:34,666 INFO test.py line 287 528752] Test: scene0277_02 [55/78]-82251 Batch 0.122 (0.172) Accuracy 0.8882 (0.8159) mIoU 0.7378 (0.7493)
+[2024-12-19 10:09:43,239 INFO test.py line 169 528752] 56/78: scene0329_00, loaded pred and label.
+[2024-12-19 10:09:43,682 INFO test.py line 287 528752] Test: scene0329_00 [56/78]-355413 Batch 0.445 (0.177) Accuracy 0.9370 (0.8177) mIoU 0.6952 (0.7490)
+[2024-12-19 10:09:43,871 INFO test.py line 169 528752] 57/78: scene0100_02, loaded pred and label.
+[2024-12-19 10:09:43,923 INFO test.py line 287 528752] Test: scene0100_02 [57/78]-50328 Batch 0.053 (0.175) Accuracy 0.9456 (0.8189) mIoU 0.7286 (0.7512)
+[2024-12-19 10:09:44,229 INFO test.py line 169 528752] 58/78: scene0406_02, loaded pred and label.
+[2024-12-19 10:09:44,295 INFO test.py line 287 528752] Test: scene0406_02 [58/78]-41752 Batch 0.066 (0.173) Accuracy 0.9877 (0.8229) mIoU 0.9745 (0.7564)
+[2024-12-19 10:09:49,783 INFO test.py line 169 528752] 59/78: scene0222_00, loaded pred and label.
+[2024-12-19 10:09:50,099 INFO test.py line 287 528752] Test: scene0222_00 [59/78]-234831 Batch 0.316 (0.176) Accuracy 0.9309 (0.8233) mIoU 0.6732 (0.7567)
+[2024-12-19 10:09:51,743 INFO test.py line 169 528752] 60/78: scene0426_01, loaded pred and label.
+[2024-12-19 10:09:51,956 INFO test.py line 287 528752] Test: scene0426_01 [60/78]-137586 Batch 0.213 (0.176) Accuracy 0.9101 (0.8224) mIoU 0.5568 (0.7557)
+[2024-12-19 10:09:54,089 INFO test.py line 169 528752] 61/78: scene0690_00, loaded pred and label.
+[2024-12-19 10:09:54,234 INFO test.py line 287 528752] Test: scene0690_00 [61/78]-106050 Batch 0.146 (0.176) Accuracy 0.8305 (0.8203) mIoU 0.5510 (0.7546)
+[2024-12-19 10:09:54,457 INFO test.py line 169 528752] 62/78: scene0702_02, loaded pred and label.
+[2024-12-19 10:09:54,499 INFO test.py line 287 528752] Test: scene0702_02 [62/78]-32788 Batch 0.043 (0.174) Accuracy 0.9191 (0.8205) mIoU 0.7295 (0.7535)
+[2024-12-19 10:09:59,894 INFO test.py line 169 528752] 63/78: scene0593_00, loaded pred and label.
+[2024-12-19 10:10:00,108 INFO test.py line 287 528752] Test: scene0593_00 [63/78]-211902 Batch 0.215 (0.174) Accuracy 0.9762 (0.8220) mIoU 0.7545 (0.7552)
+[2024-12-19 10:10:02,289 INFO test.py line 169 528752] 64/78: scene0300_00, loaded pred and label.
+[2024-12-19 10:10:02,435 INFO test.py line 287 528752] Test: scene0300_00 [64/78]-140216 Batch 0.148 (0.174) Accuracy 0.7687 (0.8205) mIoU 0.5824 (0.7517)
+[2024-12-19 10:10:02,665 INFO test.py line 169 528752] 65/78: scene0406_00, loaded pred and label.
+[2024-12-19 10:10:02,718 INFO test.py line 287 528752] Test: scene0406_00 [65/78]-48864 Batch 0.054 (0.172) Accuracy 0.9294 (0.8205) mIoU 0.7978 (0.7526)
+[2024-12-19 10:10:14,319 INFO test.py line 169 528752] 66/78: scene0500_01, loaded pred and label.
+[2024-12-19 10:10:14,797 INFO test.py line 287 528752] Test: scene0500_01 [66/78]-352674 Batch 0.480 (0.177) Accuracy 0.9482 (0.8207) mIoU 0.6481 (0.7531)
+[2024-12-19 10:10:15,048 INFO test.py line 169 528752] 67/78: scene0702_00, loaded pred and label.
+[2024-12-19 10:10:15,104 INFO test.py line 287 528752] Test: scene0702_00 [67/78]-54769 Batch 0.057 (0.175) Accuracy 0.9910 (0.8217) mIoU 0.9714 (0.7548)
+[2024-12-19 10:10:17,455 INFO test.py line 169 528752] 68/78: scene0701_02, loaded pred and label.
+[2024-12-19 10:10:17,572 INFO test.py line 287 528752] Test: scene0701_02 [68/78]-110945 Batch 0.117 (0.174) Accuracy 0.9235 (0.8218) mIoU 0.8390 (0.7545)
+[2024-12-19 10:10:21,495 INFO test.py line 169 528752] 69/78: scene0353_02, loaded pred and label.
+[2024-12-19 10:10:21,692 INFO test.py line 287 528752] Test: scene0353_02 [69/78]-191953 Batch 0.198 (0.174) Accuracy 0.8103 (0.8216) mIoU 0.5929 (0.7519)
+[2024-12-19 10:10:22,517 INFO test.py line 169 528752] 70/78: scene0256_02, loaded pred and label.
+[2024-12-19 10:10:22,611 INFO test.py line 287 528752] Test: scene0256_02 [70/78]-92069 Batch 0.095 (0.173) Accuracy 0.9376 (0.8227) mIoU 0.5927 (0.7531)
+[2024-12-19 10:10:27,256 INFO test.py line 169 528752] 71/78: scene0221_00, loaded pred and label.
+[2024-12-19 10:10:27,509 INFO test.py line 287 528752] Test: scene0221_00 [71/78]-185828 Batch 0.254 (0.174) Accuracy 0.9463 (0.8256) mIoU 0.7408 (0.7542)
+[2024-12-19 10:10:35,323 INFO test.py line 169 528752] 72/78: scene0653_01, loaded pred and label.
+[2024-12-19 10:10:35,804 INFO test.py line 287 528752] Test: scene0653_01 [72/78]-331565 Batch 0.482 (0.179) Accuracy 0.9592 (0.8289) mIoU 0.8081 (0.7585)
+[2024-12-19 10:10:36,119 INFO test.py line 169 528752] 73/78: scene0535_00, loaded pred and label.
+[2024-12-19 10:10:36,275 INFO test.py line 287 528752] Test: scene0535_00 [73/78]-90268 Batch 0.157 (0.178) Accuracy 0.8943 (0.8291) mIoU 0.5741 (0.7590)
+[2024-12-19 10:10:41,247 INFO test.py line 169 528752] 74/78: scene0608_02, loaded pred and label.
+[2024-12-19 10:10:41,567 INFO test.py line 287 528752] Test: scene0608_02 [74/78]-235030 Batch 0.321 (0.180) Accuracy 0.8331 (0.8274) mIoU 0.5102 (0.7567)
+[2024-12-19 10:10:44,840 INFO test.py line 169 528752] 75/78: scene0435_03, loaded pred and label.
+[2024-12-19 10:10:45,047 INFO test.py line 287 528752] Test: scene0435_03 [75/78]-203722 Batch 0.207 (0.181) Accuracy 0.9498 (0.8276) mIoU 0.7301 (0.7570)
+[2024-12-19 10:10:47,460 INFO test.py line 169 528752] 76/78: scene0081_02, loaded pred and label.
+[2024-12-19 10:10:47,623 INFO test.py line 287 528752] Test: scene0081_02 [76/78]-153929 Batch 0.164 (0.180) Accuracy 0.9796 (0.8278) mIoU 0.5748 (0.7575)
+[2024-12-19 10:10:52,320 INFO test.py line 169 528752] 77/78: scene0095_00, loaded pred and label.
+[2024-12-19 10:10:52,539 INFO test.py line 287 528752] Test: scene0095_00 [77/78]-214895 Batch 0.220 (0.181) Accuracy 0.9012 (0.8273) mIoU 0.7175 (0.7567)
+[2024-12-19 10:10:52,788 INFO test.py line 169 528752] 78/78: scene0063_00, loaded pred and label.
+[2024-12-19 10:10:52,868 INFO test.py line 287 528752] Test: scene0063_00 [78/78]-76966 Batch 0.081 (0.180) Accuracy 0.9740 (0.8322) mIoU 0.8194 (0.7610)
+[2024-12-19 10:10:53,731 INFO test.py line 304 528752] Syncing ...
+[2024-12-19 10:11:52,108 INFO test.py line 332 528752] Val result: mIoU/mAcc/allAcc 0.7625/0.8420/0.9135
+[2024-12-19 10:11:52,108 INFO test.py line 338 528752] Class_0 - wall Result: iou/accuracy 0.8658/0.9512
+[2024-12-19 10:11:52,108 INFO test.py line 338 528752] Class_1 - floor Result: iou/accuracy 0.9563/0.9788
+[2024-12-19 10:11:52,108 INFO test.py line 338 528752] Class_2 - cabinet Result: iou/accuracy 0.6907/0.7879
+[2024-12-19 10:11:52,108 INFO test.py line 338 528752] Class_3 - bed Result: iou/accuracy 0.8212/0.8783
+[2024-12-19 10:11:52,108 INFO test.py line 338 528752] Class_4 - chair Result: iou/accuracy 0.9260/0.9624
+[2024-12-19 10:11:52,108 INFO test.py line 338 528752] Class_5 - sofa Result: iou/accuracy 0.8303/0.9382
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_6 - table Result: iou/accuracy 0.7716/0.8745
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_7 - door Result: iou/accuracy 0.6908/0.7986
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_8 - window Result: iou/accuracy 0.6770/0.8226
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_9 - bookshelf Result: iou/accuracy 0.8320/0.9095
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_10 - picture Result: iou/accuracy 0.3830/0.4549
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_11 - counter Result: iou/accuracy 0.6953/0.7987
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_12 - desk Result: iou/accuracy 0.7137/0.8682
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_13 - curtain Result: iou/accuracy 0.8015/0.8655
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_14 - refridgerator Result: iou/accuracy 0.6139/0.6538
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_15 - shower curtain Result: iou/accuracy 0.7641/0.8250
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_16 - toilet Result: iou/accuracy 0.9568/0.9842
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_17 - sink Result: iou/accuracy 0.7220/0.8278
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_18 - bathtub Result: iou/accuracy 0.8971/0.9581
+[2024-12-19 10:11:52,109 INFO test.py line 338 528752] Class_19 - otherfurniture Result: iou/accuracy 0.6405/0.7027
+[2024-12-19 10:11:52,109 INFO test.py line 346 528752] <<<<<<<<<<<<<<<<< End Evaluation <<<<<<<<<<<<<<<<<
