@@ -1,4 +1,4 @@
-# FDU-PRML-2024-final-PJ-
+# FDU-PRML-2024-final-PJ
 This is the repo that provides our train/test logs and visualization code for FDU PRML 2024 final PJ: CV, 3D point cloud semantic segmentation on ScanNet v2 dataset.
 
 ## What we have
@@ -20,7 +20,7 @@ For each model, we contain the files below, two predicted scenes and train/test 
 - test.log
 - train.log
 
-Also we include one scene's files, including the input .ply file and the ground truth .ply file.
+Also we include two scenes' files, including the input .ply file and the ground truth .ply file.
 
 ## Quick start
 
